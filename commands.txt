@@ -4,6 +4,8 @@ headless ->                    npm run cy:run
 visual ->                      npm run cy:run-tests
 visual update base snapshot -> npm run cy:update-snapshots
 
+npm run cy:percy
+
 npx cypress run --spec="cypress/integration/examples/scroll.spec.js"
 
 

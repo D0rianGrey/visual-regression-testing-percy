@@ -1,5 +1,8 @@
-regular -> npm run cy:open
-headless -> npm run cy:run
+regular ->                     npm run cy:open
+headless ->                    npm run cy:run
+
+visual ->                      npm run cy:run-tests
+visual update base snapshot -> npm run cy:update-snapshots
 
 npx cypress run --spec="cypress/integration/examples/scroll.spec.js"
 
